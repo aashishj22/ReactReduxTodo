@@ -1,0 +1,46 @@
+/* todo.css */
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+figcaption {
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 300px;
+  padding: 10px;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+.itemContainer {
+  display: flex;
+  align-items: center;
+}
+
+.itemContainer h3 {
+  margin-right: 10px; /* Adjust the margin as needed */
+}
